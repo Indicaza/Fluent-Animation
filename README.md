@@ -1,2 +1,7 @@
 # Fluent-Animation
-CSS wave, and ripple animations.
+
+---
+
+![](logoAnimation.gif)
+
+---
