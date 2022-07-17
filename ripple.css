@@ -1,24 +1,22 @@
 
 .contain {
-    /*background: radial-gradient(ellipse at center, #3498DB 0%, #3498DB 35%, #B7E8EB 100%);*/
-    background: linear-gradient(to bottom, #102d41 0%, #25bbc0 35%, #6eb3ea 100%);
-    /*background-size: 150% 150%;*/
+    background: linear-gradient(to bottom, #25bbc0 35%, #0b212c 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
     height: 90vh;
     width: 90vw;
     border-radius: 50px;
+    filter: url("#under-water-effect");
     position: relative;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 
 .wave {
     margin: 60vh auto;
     position: absolute;
-    top: -200px;
-    left: 0;
+    left: -3.25%;
     right: 0;
     opacity: 0;
     top: 0;
@@ -42,6 +40,7 @@
     animation-iteration-count: infinite;
 }
 
+
 .logo {
     background: url(./svg/fluentlogoandbrandmark.svg) no-repeat center;
     background-size: contain;
@@ -57,9 +56,9 @@
     -moz-animation-name: logo;
     -webkit-animation-name: logo;
     animation-name: logo;
-    -moz-animation-delay:  3s;
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
+    /*-moz-animation-delay:  3s;*/
+    /*-webkit-animation-delay: 3s;*/
+    /*animation-delay: 3s;*/
     -moz-animation-duration: 3s;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
@@ -67,6 +66,7 @@
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
+
 
 .wave:after {
     content: "";
@@ -94,7 +94,7 @@
 
 @keyframes logo {
     0%, 100% {top: 15%;}
-    50% {top: 13%;}
+    50% {top: 12%;}
 }
 
 
